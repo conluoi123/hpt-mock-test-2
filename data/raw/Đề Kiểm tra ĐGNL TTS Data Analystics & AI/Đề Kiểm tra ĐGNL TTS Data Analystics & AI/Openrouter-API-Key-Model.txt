@@ -1,0 +1,42 @@
+Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its vision-language abilities while retaining full-stack, agent-level intelligence for coding, tool use, and productivity workflows. Its distinguishing trait is multi-modal interactive hybrid agent capability: it can perceive real-world scenes, read screens and interact with GUIs, generate code from visual references, and perform end-to-end navigation within mobile apps.
+
+
+from openai import OpenAI
+
+client = OpenAI(
+  base_url="https://openrouter.ai/api/v1",
+  api_key="[YOUR_API_KEY_HERE]",
+)
+
+# First API call with reasoning
+response = client.chat.completions.create(
+  model="qwen/qwen3.7-plus",
+  messages=[
+          {
+            "role": "user",
+            "content": "How many r's are in the word 'strawberry'?"
+          }
+        ],
+  extra_body={"reasoning": {"enabled": True}}
+)
+
+# Extract the assistant message with reasoning_details
+response = response.choices[0].message
+
+# Preserve the assistant message with reasoning_details
+messages = [
+  {"role": "user", "content": "How many r's are in the word 'strawberry'?"},
+  {
+    "role": "assistant",
+    "content": response.content,
+    "reasoning_details": response.reasoning_details  # Pass back unmodified
+  },
+  {"role": "user", "content": "Are you sure? Think carefully."}
+]
+
+# Second API call - model continues reasoning from where it left off
+response2 = client.chat.completions.create(
+  model="qwen/qwen3.7-plus",
+  messages=messages,
+  extra_body={"reasoning": {"enabled": True}}
+)

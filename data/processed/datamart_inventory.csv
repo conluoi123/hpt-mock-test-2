@@ -1,0 +1,51 @@
+MaterialID,MaterialName,MaterialCategory,UnitOfMeasure,UnitCost,SupplierID,LeadTimeDays,MinOrderQty,CurrentStock,ReorderPoint,SupplierName,LeadTimeAvg,Stockout_Risk
+MAT-0001,Steel Sheet 4mm,Steel,Sheet,45,SUP-010,7,100,372,254,SealMaster Corp,5,False
+MAT-0002,Steel Sheet 6mm,Steel,Sheet,55,SUP-006,5,10,807,208,SteelMax Industries,18,False
+MAT-0003,Steel Rod 10mm,Steel,Meter,12,SUP-001,7,50,688,492,MetalPro Supplies,7,False
+MAT-0004,Steel Rod 20mm,Steel,Meter,18,SUP-003,11,500,1527,170,ChemCoat Solutions,14,False
+MAT-0005,Aluminum Plate 5mm,Aluminum,Sheet,85,SUP-005,21,50,714,491,ElectroParts Ltd,5,False
+MAT-0006,Aluminum Bar 15mm,Aluminum,Meter,25,SUP-001,20,50,1640,230,MetalPro Supplies,7,False
+MAT-0007,Copper Wire 2mm,Copper,Meter,8,SUP-003,13,10,1978,248,ChemCoat Solutions,14,False
+MAT-0008,Copper Sheet 3mm,Copper,Sheet,95,SUP-012,15,500,1212,267,WireWorks Inc,28,False
+MAT-0009,Brass Rod 8mm,Brass,Meter,15,SUP-007,19,500,1271,161,RubberTech Co,14,False
+MAT-0010,Bronze Bushing,Bronze,Piece,22,SUP-009,12,25,223,103,ComposiTech Materials,21,False
+MAT-0011,Stainless Steel 316,Steel,Kg,120,SUP-002,17,25,1859,354,FastenerWorld Inc,21,False
+MAT-0012,Carbon Steel,Steel,Kg,35,SUP-012,19,100,157,482,WireWorks Inc,28,True
+MAT-0013,Cast Iron Block,Iron,Kg,28,SUP-002,16,25,368,320,FastenerWorld Inc,21,False
+MAT-0014,Titanium Sheet,Titanium,Sheet,450,SUP-008,6,10,372,189,PrecisionCast Inc,7,False
+MAT-0015,Nickel Alloy,Nickel,Kg,280,SUP-008,6,50,1595,166,PrecisionCast Inc,7,False
+MAT-0016,Zinc Coating,Coating,Liter,45,SUP-013,20,500,1315,294,CoatingPro Solutions,10,False
+MAT-0017,Rubber Seal,Rubber,Piece,3,SUP-006,9,50,151,372,SteelMax Industries,18,True
+MAT-0018,Silicon Gasket,Silicon,Piece,5,SUP-009,16,10,1430,460,ComposiTech Materials,21,False
+MAT-0019,Nylon Washer,Plastic,Piece,1,SUP-010,17,50,217,217,SealMaster Corp,5,False
+MAT-0020,PTFE Tape,Plastic,Roll,8,SUP-002,10,500,607,356,FastenerWorld Inc,21,False
+MAT-0021,Epoxy Resin,Resin,Liter,65,SUP-008,16,25,957,386,PrecisionCast Inc,7,False
+MAT-0022,Polyurethane,Polymer,Liter,48,SUP-009,13,100,1405,442,ComposiTech Materials,21,False
+MAT-0023,ABS Plastic,Plastic,Kg,15,SUP-004,17,500,918,281,PlastiForm Corp,10,False
+MAT-0024,Polycarbonate,Plastic,Sheet,125,SUP-010,15,500,1044,136,SealMaster Corp,5,False
+MAT-0025,Ceramic Insert,Ceramic,Piece,35,SUP-001,16,500,1293,303,MetalPro Supplies,7,False
+MAT-0026,Glass Fiber,Composite,Meter,28,SUP-012,6,500,955,479,WireWorks Inc,28,False
+MAT-0027,Carbon Fiber,Composite,Meter,180,SUP-013,13,10,898,121,CoatingPro Solutions,10,False
+MAT-0028,Kevlar Sheet,Composite,Sheet,220,SUP-015,16,500,609,323,ToolingPro Ltd,14,False
+MAT-0029,Lubricant Oil,Lubricant,Liter,25,SUP-014,13,50,491,109,AlloyMaster Corp,7,False
+MAT-0030,Grease Compound,Lubricant,Kg,18,SUP-011,11,10,1596,335,BearingPro Ltd,14,False
+MAT-0031,Adhesive Compound,Adhesive,Tube,12,SUP-009,14,25,1099,139,ComposiTech Materials,21,False
+MAT-0032,Solder Wire,Solder,Spool,35,SUP-005,7,50,283,260,ElectroParts Ltd,5,False
+MAT-0033,Flux Paste,Chemical,Jar,22,SUP-008,18,50,756,394,PrecisionCast Inc,7,False
+MAT-0034,Paint Primer,Paint,Liter,32,SUP-011,5,50,930,319,BearingPro Ltd,14,False
+MAT-0035,Powder Coating,Coating,Kg,55,SUP-001,5,50,277,393,MetalPro Supplies,7,True
+MAT-0036,Anodize Solution,Chemical,Liter,42,SUP-001,5,10,630,307,MetalPro Supplies,7,False
+MAT-0037,Screw M4,Fastener,Box,8,SUP-008,5,25,1438,463,PrecisionCast Inc,7,False
+MAT-0038,Screw M6,Fastener,Box,12,SUP-014,16,25,1439,427,AlloyMaster Corp,7,False
+MAT-0039,Bolt M8,Fastener,Box,18,SUP-007,6,500,1264,313,RubberTech Co,14,False
+MAT-0040,Bolt M10,Fastener,Box,25,SUP-007,14,100,1046,248,RubberTech Co,14,False
+MAT-0041,Nut M4,Fastener,Box,5,SUP-011,7,10,1129,158,BearingPro Ltd,14,False
+MAT-0042,Nut M6,Fastener,Box,8,SUP-002,20,25,1416,307,FastenerWorld Inc,21,False
+MAT-0043,Washer M8,Fastener,Box,6,SUP-008,4,10,681,110,PrecisionCast Inc,7,False
+MAT-0044,Spring Washer,Fastener,Box,10,SUP-012,21,10,143,266,WireWorks Inc,28,True
+MAT-0045,O-Ring Small,Seal,Pack,15,SUP-015,20,500,501,187,ToolingPro Ltd,14,False
+MAT-0046,O-Ring Medium,Seal,Pack,22,SUP-008,20,25,859,416,PrecisionCast Inc,7,False
+MAT-0047,O-Ring Large,Seal,Pack,35,SUP-002,13,100,1277,335,FastenerWorld Inc,21,False
+MAT-0048,Bearing Ball,Bearing,Pack,45,SUP-015,6,100,162,453,ToolingPro Ltd,14,True
+MAT-0049,Bearing Roller,Bearing,Pack,65,SUP-002,16,100,65,285,FastenerWorld Inc,21,True
+MAT-0050,Seal Ring,Seal,Pack,28,SUP-006,14,50,468,145,SteelMax Industries,18,False
